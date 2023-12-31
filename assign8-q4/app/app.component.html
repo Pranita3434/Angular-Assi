@@ -1,0 +1,5 @@
+<!-- app.component.html -->
+
+<label for="userInput">Enter Text:</label>
+<input id="userInput" (input)="onInputChange($event)" />
+<p>Length of the entered string: {{ stringLength }}</p>

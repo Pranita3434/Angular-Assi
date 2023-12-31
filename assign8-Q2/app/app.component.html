@@ -1,0 +1,4 @@
+<!-- app.component.html -->
+
+<h2>Data Received from Child Component: {{ messageFromChild }}</h2>
+<app-child [messageToChild]="messageToChild" (messageFromChild)="receiveMessageFromChild($event)"></app-child>
