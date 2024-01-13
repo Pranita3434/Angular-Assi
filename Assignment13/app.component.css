@@ -1,0 +1,9 @@
+.rounded {
+    border-radius: 10px; /* or any other value */
+  }
+  
+  .float-right {
+    float: right;
+    margin-left: 10px; /* adjust as needed */
+  }
+  
